@@ -472,7 +472,55 @@
             </li>
           </ul>
         </div>
+        <form>
+          <label>
+            Subscribe
+            <input
+              class="form-input-footer"
+              type="text"
+              name="subscribe"
+              placeholder="E-mail"
+            />
+            <button type="submit">
+              Subscribe
+              <svg class="overlay-icons" widht="24" height="20">
+                <use href="./images/symbol-defs.svg#icon-send"></use>
+              </svg>
+            </button>
+          </label>
+        </form>
       </div>
     </footer>
+    <div class="modal-overlay">
+      <div class="modal">
+        <p>Leave your contacts and we will call you back</p>
+        <form>
+          <label>
+            Name <input class="form-input" type="text" name="name" />
+            <svg class="overlay-icons" widht="16" height="24">
+              <use href="./images/symbol-defs.svg#icon-person"></use>
+            </svg>
+          </label>
+          <label>
+            Phone <input class="form-input" type="text" name="phone" />
+            <svg class="overlay-icons" widht="16" height="24">
+              <use href="./images/symbol-defs.svg#icon-phone"></use>
+            </svg>
+          </label>
+          <label>
+            Email
+            <input class="form-input" type="text" name="email" />
+            <svg class="overlay-icons" widht="16" height="24">
+              <use href="./images/symbol-defs.svg#icon-email"></use>
+            </svg>
+          </label>
+          <label>
+            Comment
+            <input type="text" name="username" placeholder="Text input" />
+          </label>
+          <button class="form-button" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
