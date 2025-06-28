@@ -669,14 +669,14 @@ flex-direction: column;}
 
 
 .overlay-icons {
-    position: relative;
+    position: absolute;
     left: 16px;
     top: 50%; 
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
-.overlay-ic.overlay-icons {
-            fill: #4D5AE5;}
+.overlay-icons:focus {
+      fill: #4D5AE5;}
 
 .overlay-comment {margin-bottom: 16px;}
 
@@ -698,7 +698,7 @@ flex-direction: column;}
 .overlay-textarea:focus {border-color: #4D5AE5;}
 
 .overlay-checkbox {margin-bottom: 24px;}
-
+.overlay-checkbox-inon {position: absolute;}
 .overlay-checkbox-label {font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
