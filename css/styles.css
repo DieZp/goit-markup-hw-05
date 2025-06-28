@@ -641,12 +641,7 @@ img {
 
 .modal-form {margin-bottom: 8px;}
 
-/* .form {
-display: flex;
-flex-direction: column;
-border-radius: 4px;
-max-width: 360px;
-max-height: 336px;} */
+.modal-overlay-input {position: relative}
 
 .form-input{position: relative;}
 
