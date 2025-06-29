@@ -511,6 +511,7 @@
                 id="user-name"
                 type="text"
                 name="user-name"
+                placeholder=" "
               />
               <svg class="overlay-icons" width="18" height="24">
                 <use href="./images/symbol-defs.svg#icon-person"></use>
@@ -524,6 +525,7 @@
                 id="user-phone"
                 type="text"
                 name="phone"
+                placeholder=" "
               />
               <svg class="overlay-icons" width="18" height="24">
                 <use href="./images/symbol-defs.svg#icon-phone"></use>
@@ -537,22 +539,25 @@
                 id="user-email"
                 type="text"
                 name="email"
+                placeholder=" "
               />
               <svg class="overlay-icons" width="18" height="24">
                 <use href="./images/symbol-defs.svg#icon-email"></use>
               </svg>
             </div>
-            <div class="overlay-comment">
-              <label class="footer-form-label" for="user-comment">
-                Comment
+
+            <label class="footer-form-label" for="user-comment">
+              Comment
+              <div class="overlay-comment">
                 <textarea
                   class="overlay-textarea"
                   id="user-comment"
                   name="user-comment"
                   placeholder="Text input"
                 ></textarea>
-              </label>
-            </div>
+              </div>
+            </label>
+
             <div class="overlay-checkbox">
               <input
                 class="overlay-checkbox-input"
@@ -561,6 +566,7 @@
                 value="true"
                 name="user-privacy"
               />
+
               <label class="overlay-checkbox-label" for="user-privacy"
                 >I accept the terms and conditions of the
                 <span class="overlay-checkbox-span">
@@ -575,6 +581,7 @@
                 <a class="overlay-checkbox-link" href="">Privacy Policy</a>
               </label>
             </div>
+
             <button class="form-button" type="button">Send</button>
           </div>
         </form>
