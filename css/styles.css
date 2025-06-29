@@ -651,8 +651,7 @@ img {
     display: flex;
     flex-direction: column;}
 
-.modal-overlay-input {position: relative;
-    }
+.modal-overlay-input {position: relative;}
 
 .footer-form-label {
     font-size: 12px;
