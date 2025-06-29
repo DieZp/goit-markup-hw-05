@@ -648,6 +648,7 @@ img {
 .modal-form {margin-bottom: 8px;}
 
 .modal-overlay-input {position: relative;
+    border: 1px solid rgba(46, 47, 66, 0.4);
     }
 
 .footer-form-label {
@@ -671,7 +672,7 @@ img {
     border-color: #4D5AE5;
     font-size: 12px;}
 
-  
+        
 
 
 .overlay-icons {
