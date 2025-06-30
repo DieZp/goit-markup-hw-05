@@ -823,17 +823,6 @@ img {
     background-color: #404bbf;
 }
 
-/* .form-button-close {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    padding: 0;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-} */
-
-
 .form-button-close-icon {
     fill: #2e2f42;
 }
@@ -880,7 +869,7 @@ img {
 }
 
 /* Стан checked */
-.overlay-checkbox-input:checked+.overlay-checkbox-label .overlay-checkbox-span {
+.overlay-checkbox-input:checked + .overlay-checkbox-label .overlay-checkbox-span {
     background-color: var(--accent-color);
     /* наприклад #404bbf */
     border: none;
@@ -917,7 +906,7 @@ img {
 }
 
 /* Если чекбокс выбран — показываем галочку и меняем фон */
-.overlay-checkbox-input:checked+.overlay-checkbox-label .overlay-checkbox-span {
+.overlay-checkbox-input:checked + .overlay-checkbox-label .overlay-checkbox-span {
     background-color: #4d5ae5;
     /* синий фон при активном состоянии */
     border-color: #4d5ae5;
