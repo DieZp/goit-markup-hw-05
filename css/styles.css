@@ -636,16 +636,17 @@ img {
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
     cursor: pointer;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-button-close:hover,
 .form-button-close:focus {
     background-color: #404bbf;
     border-color: #404bbf;
-    border: none; 
-    fill: #ffffff;}
+    border: none;
+    fill: #ffffff;
+}
 
 .form-button-close svg {
     stroke: #2e2f42;
@@ -704,6 +705,7 @@ img {
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .overlay-textarea {
     width: 100%;
     height: 120px;
@@ -733,10 +735,12 @@ img {
     fill: rgba(46, 47, 66, 1);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: black;
-} 
+}
+
 #user-name+svg.overlay-icons {
     fill: #3b82f6;
-    /* синий */ }
+    /* синий */
+}
 
 .overlay-icons:focus {
     border-color: #4d5ae5;
@@ -759,8 +763,9 @@ img {
     gap: 8px;
     font-size: 12px;
     color: #8e8f99;
-    
+
 }
+
 .overlay-checkbox-inon {
     position: absolute;
 }
@@ -770,6 +775,9 @@ img {
 }
 
 .overlay-checkbox-label {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -892,4 +900,26 @@ img {
     --accent-color: #404bbf;
     --light-color: #f4f4fd;
     --primary-color: #4d5ae5;
+}
+
+/* Скрываем нативный checkbox */
+.overlay-checkbox-input.visually-hidden {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Скрываем иконку галочки по умолчанию */
+.overlay-checkbox-icon {
+    opacity: 0;
+    transition: opacity 250ms;
+    fill: black;
+    /* цвет галочки */
+}
+
+/* Если чекбокс выбран — показываем галочку и меняем фон */
+.overlay-checkbox-input:checked+.overlay-checkbox-label .overlay-checkbox-span {
+    background-color: #4d5ae5;
+    /* синий фон при активном состоянии */
+    border-color: #4d5ae5;
 }
