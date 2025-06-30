@@ -402,7 +402,7 @@ img {
 .portfolio-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    columns: #434455;
+    color: #434455;
     margin: 0;
 }
 
@@ -750,12 +750,13 @@ img {
 }
 
 .overlay-checkbox {
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
     margin-bottom: 16px;
     gap: 8px;
     font-size: 12px;
-        color: #8e8f99;
+    color: #8e8f99;
+    
 }
 .overlay-checkbox-inon {
     position: absolute;
@@ -769,7 +770,7 @@ img {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: #757575;
+    color: #8e8f99;
 }
 
 .footer-form-label {
@@ -785,6 +786,7 @@ img {
 .overlay-checkbox-link {
     color: #4d5ae5;
     margin-left: 4px;
+
 }
 
 .form-button {
@@ -811,7 +813,7 @@ img {
     background-color: #404bbf;
 }
 
-.form-button-close {
+/* .form-button-close {
     position: absolute;
     top: 8px;
     right: 8px;
@@ -819,7 +821,7 @@ img {
     background-color: transparent;
     border: none;
     cursor: pointer;
-}
+} */
 
 
 .form-button-close-icon {
