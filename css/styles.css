@@ -599,7 +599,7 @@ img {
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
     opacity: 1;
     overflow-y: auto;
-    pointer-events: none;
+    /* pointer-events: none; */
 }
 
 .modal-overlay.is-open {
@@ -735,10 +735,9 @@ img {
     fill: black;
 }
 
-#user-name+svg.overlay-icons {
+/* #user-name+svg.overlay-icons {
     fill: #3b82f6;
     /* синий */
-}
 .overlay-input:focus+.overlay-icons {
     fill: #4D5AE5; }
 
