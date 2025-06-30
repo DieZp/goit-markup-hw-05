@@ -563,6 +563,9 @@ img {
 }
 
 .footer-form-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     min-width: 165px;
     height: 40px;
     font-family: "Roboto", sans-serif;
@@ -578,7 +581,7 @@ img {
 }
 
 .footer-form-icons {
-    margin-right: 16px;
+    margin-left: 16px;
     fill: #ffffff;
 }
 
@@ -640,8 +643,8 @@ img {
         border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-button-close:hover,
-.form-button-close:focus {
+.form-button-close:hover .form-button-close-icon,
+.form-button-close:focus .form-button-close-icon {
     background-color: #404bbf;
     border-color: #404bbf;
     border: none;
@@ -659,15 +662,17 @@ img {
 }
 
 .form-button-close-icon {
+    fill: #2e2f42;
+        /* початковий колір */
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-button-close-icon:hover,
+/* .form-button-close-icon:hover,
 .form-button-close-icon:focus {
     fill: #ffffff;
     background-color: #404bbf;
     border: none;
-}
+} */
 
 .modal-text {
     font-weight: 500;
@@ -741,10 +746,12 @@ img {
     fill: #3b82f6;
     /* синий */
 }
+.overlay-input:focus+.overlay-icons {
+    fill: #4D5AE5; }
 
 .overlay-icons:focus {
     border-color: #4d5ae5;
-    fill: #4d5ae5;
+    /* fill: #4d5ae5; */
 }
 
 .overlay-textarea {
