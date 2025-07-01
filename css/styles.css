@@ -650,9 +650,14 @@ img {
     border: none;
 }
 
+.form-button-close svg:hover,
+.form-button-close svg:focus{
+    fill: #ffffff;
+}
+
 .form-button-close svg {
    color: #2e2f42;
-    fill: #ffffff;
+    /* fill: #ffffff; */
 }
 
 .modal-close-icon {
@@ -662,9 +667,9 @@ img {
 }
 
 .form-button-close-icon {
-    /* fill: #2e2f42; */
+    fill: #2e2f42;
         /* початковий колір */
-    /* transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .modal-text {
