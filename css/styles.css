@@ -650,16 +650,6 @@ img {
     border: none;
 }
 
-.form-button-close svg {
-   color: #2e2f42;
-}
-
-.modal-close-icon {
-    width: 8px;
-    height: 8px;
-    /* stroke: #2e2f42; */
-}
-
 .form-button-close-icon {
     fill: #2e2f42;
         /* початковий колір */
@@ -818,10 +808,6 @@ img {
 .form-button:hover,
 .form-button:focus {
     background-color: #404bbf;
-}
-
-.form-button-close-icon {
-    fill: #2e2f42;
 }
 
 /* Приховуємо дефолтний чекбокс */
