@@ -575,7 +575,7 @@ img {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
-    background-color: #4d5ae5;
+    background-color: #404BBF;
     border: none;
     border-radius: 4px;
 }
@@ -651,7 +651,7 @@ img {
 }
 
 .form-button-close svg {
-    stroke: #2e2f42;
+   color: #2e2f42;
     fill: #ffffff;
 }
 
