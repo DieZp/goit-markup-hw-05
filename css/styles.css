@@ -648,23 +648,23 @@ img {
     background-color: #404bbf;
     border-color: #404bbf;
     border: none;
-    fill: #ffffff;
 }
 
 .form-button-close svg {
     stroke: #2e2f42;
+    fill: #ffffff;
 }
 
 .modal-close-icon {
     width: 8px;
     height: 8px;
-    stroke: #2e2f42;
+    /* stroke: #2e2f42; */
 }
 
 .form-button-close-icon {
-    fill: #2e2f42;
+    /* fill: #2e2f42; */
         /* початковий колір */
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    /* transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .modal-text {
@@ -756,8 +756,6 @@ img {
 }
 
 .overlay-checkbox {
-    /* display: flex;
-    align-items: center; */
     margin-bottom: 16px;
     gap: 8px;
     font-size: 12px;
@@ -774,7 +772,6 @@ img {
 }
 
 .overlay-checkbox-label {
-    /* display: flex; */
     align-items: center;
     white-space: nowrap;
     font-size: 12px;
