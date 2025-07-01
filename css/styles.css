@@ -635,7 +635,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:#4D5AE5;
+    background-color:#e7e9fc;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
     cursor: pointer;
@@ -650,14 +650,8 @@ img {
     border: none;
 }
 
-.form-button-close svg:hover,
-.form-button-close svg:focus{
-    fill: #ffffff;
-}
-
 .form-button-close svg {
    color: #2e2f42;
-    /* fill: #ffffff; */
 }
 
 .modal-close-icon {
