@@ -635,7 +635,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #e7e9fc;
+    background-color:#4D5AE5;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
     cursor: pointer;
@@ -727,7 +727,7 @@ img {
 
 .overlay-input:focus,
 .overlay-textarea:focus {
-    border-color: #404bbf;;
+    border-color: #4D5AE5;
 }
 
 .overlay-icons {
