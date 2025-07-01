@@ -656,8 +656,8 @@ img {
      transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
-.form-button-close-icon:hover,
-.form-button-close-icon:focus{fill:#ffffff;}
+.form-button-close:hover .form-button-close-icon,
+.form-button-close:focus .form-button-close-icon{fill:#ffffff;}
 
 .modal-text {
     font-weight: 500;
@@ -883,9 +883,3 @@ img {
     fill: black;
     /* цвет галочки */
 }
-
-/* Если чекбокс выбран — показываем галочку и меняем фон
-.overlay-checkbox-input:checked + .overlay-checkbox-label .overlay-checkbox-span {
-    background-color: #4d5ae5;
-    /* синий фон при активном состоянии */
-    /* border-color: #4d5ae5 */
