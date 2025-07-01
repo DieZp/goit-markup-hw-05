@@ -852,8 +852,8 @@ img {
     background-color:#404bbf ;
     /* наприклад var(--accent-color) */
     border: none;
-    /* fill:#F4F4FD ;
-    наприклад var(--light-color) */
+    fill:#F4F4FD ;
+    /* наприклад var(--light-color) */
 }
 
 /* Стилі лінка */
