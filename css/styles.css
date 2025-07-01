@@ -870,17 +870,17 @@ img {
 
 /* Стан checked */
 .overlay-checkbox-input:checked + .overlay-checkbox-label .overlay-checkbox-span {
-    background-color: var(--accent-color);
-    /* наприклад #404bbf */
+    background-color:#404bbf ;
+    /* наприклад var(--accent-color) */
     border: none;
-    fill: var(--light-color);
-    /* наприклад #F4F4FD */
+    fill:#F4F4FD ;
+    /* наприклад var(--light-color) */
 }
 
 /* Стилі лінка */
 .overlay-checkbox-link {
-    color: var(--primary-color);
-    /* наприклад #4d5ae5 */
+    color:#4d5ae5 ;
+    /* наприклад var(--primary-color) */
     text-decoration: underline;
 }
 
