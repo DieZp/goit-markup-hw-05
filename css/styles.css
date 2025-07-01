@@ -884,9 +884,8 @@ img {
     /* цвет галочки */
 }
 
-/* Если чекбокс выбран — показываем галочку и меняем фон */
+/* Если чекбокс выбран — показываем галочку и меняем фон
 .overlay-checkbox-input:checked + .overlay-checkbox-label .overlay-checkbox-span {
     background-color: #4d5ae5;
     /* синий фон при активном состоянии */
-    border-color: #4d5ae5;
-}
+    /* border-color: #4d5ae5 */
